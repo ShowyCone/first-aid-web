@@ -9,25 +9,25 @@ export default function QuickConsult() {
     {
       id: 1,
       title: 'Introducción a los Primeros Auxilios',
-      image: '/jonesy.webp',
+      image: '/first-aid-web/jonesy.webp',
       tags: ['primeros auxilios', 'seguridad', 'salud'],
     },
     {
       id: 2,
       title: 'Cómo realizar RCP (Reanimación Cardiopulmonar)',
-      image: '/jonesy.webp',
+      image: '/first-aid-web/jonesy.webp',
       tags: ['rcp', 'emergencia', 'reanimación'],
     },
     {
       id: 3,
       title: 'Atención a heridas y hemorragias',
-      image: '/jonesy.webp',
+      image: '/first-aid-web/jonesy.webp',
       tags: ['heridas', 'hemorragias', 'primeros auxilios'],
     },
     {
       id: 4,
       title: 'Tratamiento de quemaduras',
-      image: '/jonesy.webp',
+      image: '/first-aid-web/jonesy.webp',
       tags: ['quemaduras', 'emergencia', 'salud'],
     },
     {
@@ -39,7 +39,7 @@ export default function QuickConsult() {
     {
       id: 6,
       title: 'Manejo de fracturas y esguinces',
-      image: '/jonesy.webp',
+      image: '/first-aid-web/jonesy.webp',
       tags: ['fracturas', 'esguinces', 'primeros auxilios'],
     },
   ]

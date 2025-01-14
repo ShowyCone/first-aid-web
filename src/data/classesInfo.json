@@ -11,17 +11,17 @@
       ],
       "visual": [
         {
-          "image": "/jonesy.webp",
+          "image": "/first-aid-web/jonesy.webp",
           "text": "1ero Aplicar 30 compresiones (2 por segundo)"
         },
         {
-          "image": "/jonesy.webp",
+          "image": "/first-aid-web/jonesy.webp",
           "text": "2do aplicar 2 respiraciones boca a boca"
         }
       ],
       "quiz": {
         "question": "¿En que zona se debe aplicar RCP?",
-        "image": "/jonesy.webp",
+        "image": "/first-aid-web/jonesy.webp",
         "options": [
           "A",
           "B",
