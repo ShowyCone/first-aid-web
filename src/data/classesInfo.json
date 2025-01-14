@@ -1,0 +1,33 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Clase 1",
+      "info": [
+        "Comprobar si la persona responde y si tiene pulso o respira.",
+        "Si no responde ni respira, iniciar RCP (reanimación cardiopulmonar).",
+        "Colocar las manos entrelazadas en el centro del pecho y realizar compresiones profundas y rápidas (100-120 por minuto).",
+        "Alternar con ventilaciones despues de 30 compresiones, aplicar respiración boca a boca 2 veces para despues volver a aplicar RCP 30 compresiones"
+      ],
+      "visual": [
+        {
+          "image": "/jonesy.webp",
+          "text": "1ero Aplicar 30 compresiones (2 por segundo)"
+        },
+        {
+          "image": "/jonesy.webp",
+          "text": "2do aplicar 2 respiraciones boca a boca"
+        }
+      ],
+      "quiz": {
+        "question": "¿En que zona se debe aplicar RCP?",
+        "image": "/jonesy.webp",
+        "options": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    }
+  ]
+}
