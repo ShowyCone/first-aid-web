@@ -6,6 +6,7 @@ export default {
       backgroundImage: (theme) => ({
         aid1: "url('/src/assets/bg1.webp')",
         aid2: "url('/src/assets/bg2.webp')",
+        aid1Mobile: "url('/src/assets/bg1Mobile.webp')",
       }),
     },
   },

@@ -1,46 +1,65 @@
 import { useState } from 'react'
 import { Search } from 'lucide-react'
+import classesData from '../data/classesInfo.json'
 import Navigation from './Navigation'
+import { useNavigate } from 'react-router-dom'
 
 export default function QuickConsult() {
   const [searchTerm, setSearchTerm] = useState('')
+  const navigate = useNavigate()
 
   const items = [
     {
       id: 1,
-      title: 'Introducción a los Primeros Auxilios',
+      title: classesData.classes[0].className,
       image: '/first-aid-web/jonesy.webp',
-      tags: ['primeros auxilios', 'seguridad', 'salud'],
+      tags: ['RCP', 'Emergencias Médicas', 'Paro Cardíaco'],
     },
     {
       id: 2,
-      title: 'Cómo realizar RCP (Reanimación Cardiopulmonar)',
+      title: classesData.classes[1].className,
       image: '/first-aid-web/jonesy.webp',
-      tags: ['rcp', 'emergencia', 'reanimación'],
+      tags: ['Posición Lateral', 'Primeros Auxilios', 'Prevención de Asfixia'],
     },
     {
       id: 3,
-      title: 'Atención a heridas y hemorragias',
+      title: classesData.classes[2].className,
       image: '/first-aid-web/jonesy.webp',
-      tags: ['heridas', 'hemorragias', 'primeros auxilios'],
+      tags: ['Hemorragia', 'Control de Sangrado', 'Primeros Auxilios'],
     },
     {
       id: 4,
-      title: 'Tratamiento de quemaduras',
+      title: classesData.classes[3].className,
       image: '/first-aid-web/jonesy.webp',
-      tags: ['quemaduras', 'emergencia', 'salud'],
+      tags: ['Golpe de Calor', 'Hipertermia', 'Deshidratación'],
     },
     {
       id: 5,
-      title: 'Cómo usar un desfibrilador (DEA)',
+      title: classesData.classes[4].className,
       image: '/jonesy.webp',
-      tags: ['desfibrilador', 'rcp', 'emergencia'],
+      tags: [
+        'Asfixia',
+        'Obstrucción de Vías Respiratorias',
+        'Maniobra de Heimlich',
+      ],
     },
     {
       id: 6,
-      title: 'Manejo de fracturas y esguinces',
+      title: classesData.classes[5].className,
       image: '/first-aid-web/jonesy.webp',
-      tags: ['fracturas', 'esguinces', 'primeros auxilios'],
+      tags: ['Epistaxis', 'Sangrado Nasal', 'Primeros Auxilios'],
+    },
+    {
+      id: 7,
+      title: classesData.classes[6].className,
+      image: '/first-aid-web/jonesy.webp',
+      tags: ['Convulsiones', 'Crisis Epiléptica', 'Atención Médica'],
+    },
+    {
+      id: 8,
+      title: classesData.classes[7].className,
+      image: '/first-aid-web/jonesy.webp',
+      tags: ['Limpieza de Heridas', 'Raspaduras', 'Cuidado Básico'],
     },
   ]
 
@@ -53,7 +72,6 @@ export default function QuickConsult() {
   return (
     <div className='min-h-screen p-8'>
       <Navigation />
-
       <div className='max-w-6xl mx-auto pt-16'>
         <h2 className='text-3xl font-bold mb-8 text-center'>Consulta Rápida</h2>
 
@@ -63,7 +81,7 @@ export default function QuickConsult() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder='Busca por título o etiquetas...'
-            className='w-full bg-white/5 border border-white/20 rounded-lg pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-800 text-white'
+            className='w-full bg-white/5 border border-blue-800/80 rounded-lg pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-800 text-white'
           />
           <Search className='absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400' />
         </div>
@@ -73,14 +91,15 @@ export default function QuickConsult() {
             <div
               key={item.id}
               className='bg-blue-900 rounded-xl overflow-hidden hover:bg-blue-950/70 transition-all cursor-pointer group'
+              onClick={() => navigate(`/blog/${item.id}`)} // Redirigir al blog correspondiente
             >
-              <div className='aspect-square overflow-hidden'>
+              {/*               <div className='aspect-square overflow-hidden'>
                 <img
                   src={item.image}
                   alt={item.title}
                   className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-300'
                 />
-              </div>
+              </div> */}
               <div className='p-4'>
                 <h3 className='text-slate-300 text-lg font-semibold mb-2'>
                   {item.title}

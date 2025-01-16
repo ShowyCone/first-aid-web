@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Clase 1",
+      "className": "Inconsciente sin respiración (RCP)",
       "info": [
         "Comprobar si la persona responde y si tiene pulso o respira.",
         "Si no responde ni respira, iniciar RCP (reanimación cardiopulmonar).",
@@ -11,22 +12,219 @@
       ],
       "visual": [
         {
-          "image": "/first-aid-web/jonesy.webp",
+          "image": "/first-aid-web/rcp1.webp",
           "text": "1ero Aplicar 30 compresiones (2 por segundo)"
         },
         {
-          "image": "/first-aid-web/jonesy.webp",
+          "image": "/first-aid-web/rcp2.webp",
           "text": "2do aplicar 2 respiraciones boca a boca"
         }
       ],
       "quiz": {
         "question": "¿En que zona se debe aplicar RCP?",
-        "image": "/first-aid-web/jonesy.webp",
-        "options": [
-          "A",
-          "B",
-          "C"
-        ]
+        "image": "/first-aid-web/rcp3.webp",
+        "options": ["A", "B", "C"],
+        "correctAnswer": "C"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Clase 2",
+      "className": "Inconsciente con respiración",
+      "info": [
+        "Extiende el brazo más cercano: Colócalo en un ángulo recto con el cuerpo, con la palma hacia arriba.",
+        "Prepara el otro brazo y pierna opuesta: Cruza el brazo opuesto sobre el pecho, apoyando la mano en la mejilla más cercana. Flexiona la pierna más alejada.",
+        "Gira el cuerpo suavemente: Sostén la mano en la mejilla y usa la pierna flexionada para girar a la persona hacia ti.",
+        "Ajusta la posición: Inclina la cabeza hacia atrás para mantener las vías respiratorias despejadas y estabiliza el cuerpo con la pierna flexionada.",
+        "Mantente vigilante hasta que llegue la ayuda."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/posicion-lateral1.webp",
+          "text": "Esto pone a la persona segura de posibles vómitos y mantiene las vías aéreas libres"
+        }
+      ],
+      "quiz": {
+        "question": "¿Por qué motivo se utiliza la posición lateral de seguridad?",
+        "optionsQuestion": [
+          "A: Para evitar que la persona se despierte abruptamente.",
+          "B: Para mantener las vías respiratorias despejadas y prevenir que se atragante.",
+          "C: Para reducir el dolor en caso de fracturas.",
+          "D: Para disminuir la pérdida de sangre en heridas abiertas."
+        ],
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "B"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clase 3",
+      "className": "Heridas con sangrado",
+      "info": [
+        "Lavarse las manos antes de tocar la herida.",
+        "Aplicar presión directa sobre la herida con un paño limpio o una gasa para detener el sangrado.",
+        "Elevar la parte afectada si es posible.",
+        "Si la sangre atraviesa el vendaje, no lo retire, añada más capas ya que retirarla podría desprender el coágulo formado.",
+        "Buscar ayuda médica si el sangrado es grave."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/sangrado1.webp",
+          "text": "Aplicar presión directa sobre las heridas externas con un trozo de tela esterilizada o con la mano y mantener la presión hasta que el sangrado se detenga."
+        }
+      ],
+      "quiz": {
+        "question": "¿Cuál es el paso inicial que debes realizar si una persona se está asfixiando?",
+        "optionsQuestion": [
+          "A: Porque podría causar más dolor a la persona.",
+          "B: Porque el vendaje puede ser innecesario si la herida no sangra más.",
+          "C: Porque puede provocar infecciones si se cambia demasiado rápido.",
+          "D: Porque puede aumentar el sangrado al desprenderse del coágulo formado."
+        ],
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "D"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Clase 4",
+      "className": "Golpe de calor",
+      "info": [
+        "Mover a la persona a un lugar fresco y sombreado.",
+        "Quitarle la ropa no necesaria y aplicar compresas frías en la piel.",
+        "Hidratar a la persona con agua fresca, si está consciente.",
+        "Ventilar a la persona con un ventilador o abanico para ayudar a enfriarla."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/golpe-calor1.webp",
+          "text": "Se puede llegar a echar agua a la persona e incluso colocar hielo en zonas como la cabeza, axilas o carótidas."
+        }
+      ],
+      "quiz": {
+        "question": "¿En qué zona se recomienda colocar hielo?",
+        "image": "/first-aid-web/golpe-calor2.webp",
+        "options": ["A", "B", "C"],
+        "correctAnswer": "C"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Clase 5",
+      "className": "Asfixia",
+      "info": [
+        "Preguntar si puede hablar o toser. Si no puede, dar 5 golpes secos a la espalda entre los homoplatos.",
+        "Si no funciona, realizar la maniobra de Heimlich.",
+        "Colocarse detrás de la persona, rodearla con los brazos, y ejercer presión rápida y fuerte hacia adentro y arriba justo debajo del esternón.",
+        "Repetir hasta que la obstrucción se desplace o la persona pierda la conciencia.",
+        "Si pierde la conciencia, iniciar RCP y llamar a emergencias."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/asfixia1.webp",
+          "text": "Aplica presión rápida y firme hacia adentro y arriba en el abdomen, justo debajo del esternón."
+        },
+        {
+          "image": "/first-aid-web/asfixia2.webp",
+          "text": "Maniobra de Heimlich, con movimiento ascendente y hacia adentro para desobstruir las vías respiratorias."
+        }
+      ],
+      "quiz": {
+        "question": "¿Cuál es el paso inicial que debes realizar si una persona se está asfixiando?",
+        "optionsQuestion": [
+          "A: Pedirle que se siente y respire profundamente.",
+          "B: Realizar inmediatamente la maniobra de Heimlich.",
+          "C: Preguntarle si puede toser o intentar desobstruir las vías respiratorias.",
+          "D: Llamar a emergencias y esperar a que lleguen los paramédicos."
+        ],
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "C"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Clase 6",
+      "className": "Sangrado de nariz",
+      "info": [
+        "Sentar a la persona y mantener la cabeza inclinada hacia adelante.",
+        "Presionar suavemente la parte blanda de la nariz (justo debajo del hueso) con los dedos durante unos 10 minutos.",
+        "Evitar inclinar la cabeza hacia atrás para no tragar la sangre.",
+        "Si el sangrado no se detiene después de 15 minutos o es muy abundante, buscar atención médica."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/sangrado-de-la-nariz1.webp",
+          "text": "No debe inclinarse la cabeza hacia atrás, por el contrario lo correcto sería inclinar la cabeza hacia adelante ya que ayuda a drenar la sangre hacia afuera."
+        }
+      ],
+      "quiz": {
+        "question": "¿Qué postura debe adoptar la persona con un sangrado nasal para evitar complicaciones?",
+        "optionsQuestion": [
+          "A: Acostarse y mantener la cabeza hacia atrás.",
+          "B: Sentarse e inclinar la cabeza hacia adelante.",
+          "C: Permanecer de pie con la cabeza hacia atrás.",
+          "D: Acostarse con la cabeza elevada y aplicar hielo directamente en la nariz."
+        ],
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "B"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Clase 7",
+      "className": "Convulsiones",
+      "info": [
+        "Mantener la calma y alejar objetos cercanos que puedan causar daño.",
+        "No sujetar a la persona ni intentar detener los movimientos.",
+        "Colocar algo blando debajo de la cabeza y girar suavemente a la persona de lado si es posible.",
+        "No introducir objetos en la boca.",
+        "Llamar a emergencias si la convulsión dura más de 5 minutos o es la primera vez que ocurre."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/convulsion1.webp",
+          "text": "Instrucciones a seguir."
+        }
+      ],
+      "quiz": {
+        "question": "¿Qué es lo más importante que debes evitar hacer cuando una persona está teniendo una convulsión?",
+        "optionsQuestion": [
+          "A: Colocar algo en su boca para evitar que se muerda la lengua.",
+          "B: Sujetar a la persona para detener los movimientos involuntarios.",
+          "C: Alejar objetos peligrosos alrededor de la persona.",
+          "D: Tratar de reanimarla con agua o golpes suaves."
+        ],
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "C"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Clase 8",
+      "className": "Heridas y raspones",
+      "info": [
+        "Lavar la herida con agua y jabón suave para eliminar suciedad.",
+        "Secar con cuidado utilizando una gasa limpia.",
+        "Aplicar un antiséptico para prevenir infecciones tal como betadine.",
+        "Cubrir con un vendaje limpio, asegurándose de que no esté demasiado apretado.",
+        "Cambiar el vendaje diariamente o si se moja o ensucia."
+      ],
+      "visual": [
+        {
+          "image": "/first-aid-web/raspon1.webp",
+          "text": "Muy importante no echarse alcohol o agua oxigenada en las heridas, esto puede empeorarlas y retrasar el proceso de curación."
+        }
+      ],
+      "quiz": {
+        "question": "¿Cuál es el primer paso que debes hacer para limpiar una herida o raspón?",
+        "optionsQuestion": [
+          "A: Aplicar antiséptico directamente sobre la herida.",
+          "B: Cubrir la herida con un vendaje seco inmediatamente.",
+          "C: Lavar la herida con agua y jabón suave para eliminar suciedad y bacterias.",
+          "D: Secar la herida con un paño seco antes de lavarla."
+        ],
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "C"
       }
     }
   ]

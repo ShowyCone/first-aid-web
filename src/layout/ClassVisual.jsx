@@ -4,11 +4,11 @@ export default function ClassVisual({ classId }) {
   const classInfo = classesData.classes[classId].visual
 
   return (
-    <div className='flex flex-row'>
+    <div className='flex md:flex-row flex-col overflow-y-auto overflow-x-auto gap-4 md:gap-8 max-h-96 md:max-h-80'>
       {classInfo.map((info, index) => (
         <div className='flex flex-col items-center p-5' key={index}>
           <img
-            className='object-cover h-52'
+            className='object-contain h-52'
             src={info.image}
             alt='Imagen que muestra la instucción'
           />
@@ -20,3 +20,7 @@ export default function ClassVisual({ classId }) {
     </div>
   )
 }
+
+/* /first-aid-web/jonesy.webp
+/first-aid-web/jonesy.webp
+/first-aid-web/jonesy.webp */
