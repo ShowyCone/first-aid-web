@@ -12,7 +12,7 @@ export default function Introduction() {
         className='w-14 absolute top-2 right-2'
       />
       <h1 className='text-5xl font-bold mb-6 bg-clip-text text-red-800 self-start relative z-10'>
-        PRIMEROS AUXILIOS
+        PRIMEROS AUXILIOS UGMA
       </h1>
       <p className='text-xl font-medium mb-8 max-w-2xl text-blue-800 self-center md:self-start'>
         Emergencias en el campus, respuestas en tu mano.
